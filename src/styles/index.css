@@ -1,0 +1,29 @@
+
+input {
+    background-color: #fff;
+}
+ul {
+    width: 100%;
+}
+li {
+    display: flex;
+    padding: 6px;
+    background-color: #dbdbdf;
+    margin: 4px 0;
+    border-radius: 2px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li button {
+    opacity: 0;
+}
+
+li:hover button {
+    opacity: 1;
+}
+.clearAllContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
